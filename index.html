@@ -14,14 +14,23 @@
         <!----  HEADER ------------------------------------->
         <div class="row">
             <a href="index.html">
-                <div class="col-md-4 logo"></div>
+                <div class="col-xs-8 col-sm-2 col-md-2 logo"></div>
             </a>
-            <div class="col-md-8">
+            <div class="hidden-xs col-sm-8 col-md-8">
                 <div>
                     <h1 class="name">The Original American Rock Band</h1>
                     <h2 class="description"><span id="quote">"In our top 10 rock band list!"</span><span id="quotedby"> - Hard Rock Magazine</span></h2>
                 </div>
             </div>
+            <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            
         </div>
         
     </header>
@@ -31,13 +40,15 @@
             <div class="row">
                 <!----  MENU ------------------------------------->
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li role="presentation" class="active"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">The Band</a></li>
-                        <li role="presentation"><a href="#">Hire Us Now</a></li>
-                        <li role="presentation"><a href="#">Upcoming Gigs</a></li>
-                        <li role="presentation"><a href="#">Contact Us</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active" id="nav-selected"><a href="#">Home</a></li>
+                            <li role="presentation" id="nav-item"><a href="#">The Band</a></li>
+                            <li role="presentation" id="nav-item"><a href="#">Hire Us Now</a></li>
+                            <li role="presentation" id="nav-item"><a href="#">Upcoming Gigs</a></li>
+                            <li role="presentation" id="nav-item"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-8">Page content here</div>
                 <!----  PAGE CONTENT/BODY ------------------------------------->
