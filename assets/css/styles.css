@@ -1,0 +1,11 @@
+.logo {
+    background: url("/assets/images/Monkees-logo.png");
+    background-size: contain;
+    min-height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    padding-top: 20px;
+}
