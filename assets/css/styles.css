@@ -8,7 +8,7 @@
 /*----------------HEADING---------------*/
 
 .logo {
-    background: url("/assets/images/Monkees-logo.png");
+    background: url("../images/Monkees-logo.png");
     background-size: contain;
     min-height: 150px;
     background-repeat: no-repeat;
