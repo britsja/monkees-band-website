@@ -102,8 +102,8 @@
 /*----------------MEDIA QUERIES---------------*/
 
 @media(max-width: 767px) {
-    #social-name {
-        display: none;
+    #fb {
+        display: none !important;
     }
     
     .description {
